@@ -8,10 +8,10 @@ import cam from "../img/cam.jpg";
 const Footer = () => {
   return (
     <div className="bg-[#273044] mt-36">
-      <div className=" gap-4 grid grid-cols-4 p-16 text-white h-[380px]">
+      <div className="max-sm:flex max-sm:flex-col gap-4 grid grid-cols-4 max-sm:pl-8  p-16 text-white">
         <div>
-          <p className="font-bold text-xl">ABOUT</p>
-          <p className="pt-6 pb-4 text-sm">
+          <p className="font-bold  text-xl">ABOUT</p>
+          <p className="pt-6 pb-4 text-lg ">
             {" "}
             <span className="text-blue-600">Masterstudy</span> is Education
             WordPress theme featured by Learning Management System (LMS) for
@@ -24,13 +24,13 @@ const Footer = () => {
           </button>
         </div>
 
-        <div>
-          <p className="font-bold text-xl">POPULAR COURSES</p>
+        <div className="max-sm:hidden">
+          <p className="font-bold text-xl max-sm:text-2xl">POPULAR COURSES</p>
           <div className="grid grid-cols-2 gap-y-4 grid-rows-3 pt-6">
             <p className="h-14 w-14 bg-yellow-300">
               <img src={cam} alt="cam" className="w-full h-full" />
             </p>
-            <div className="relative right-20 text-sm">
+            <div className="relative right-20 text-sm ">
               <p className="hover:text-[#3755AB] hover:cursor-pointer">
                 How to be a DJ? Make Electronic Music
               </p>
@@ -60,37 +60,32 @@ const Footer = () => {
         </div>
 
         <div>
-          <p className="font-bold text-xl">PAGES</p>
-          <div className="pt-6">
-            <ul className="flex flex-col gap-y-4 text-sm">
-              <li className="hover:text-[#E8953D] hover:cursor-pointer border-b border-blue-300 flex items-center gap-1">
-                <TbMathGreater />
-                ABOUT US
-              </li>
-              <li className="hover:text-[#E8953D] hover:cursor-pointer border-b border-blue-300 flex items-center gap-1">
-                <TbMathGreater />
-                BLOG
-              </li>
-              <li className="hover:text-[#E8953D] hover:cursor-pointer border-b border-blue-300 flex items-center gap-1">
-                <TbMathGreater />
-                CONTACT US
-              </li>
-              <li className="hover:text-[#E8953D] hover:cursor-pointer border-b border-blue-300 flex items-center gap-1">
-                <TbMathGreater />
-                SHOP
-              </li>
-              <li className="hover:text-[#E8953D] hover:cursor-pointer flex items-center gap-1">
-                <TbMathGreater />
-                MEMBERSHIP PLANS
-              </li>
-            </ul>
-          </div>
+          <p className="font-bold max-sm:text-2xl text-xl">PAGES</p>
+
+          <ul className="flex md:flex-col gap-4 text-sm pt-6  max-md:w-screen ">
+            <li className="hover:text-[#E8953D] max-md:text-[14px] hover:cursor-pointer md:border-b border-blue-300 flex items-center gap-1">
+              <TbMathGreater className="hidden md:block" />
+              ABOUT US
+            </li>
+            <li className="hover:text-[#E8953D] max-md:text-[14px] hover:cursor-pointer md:border-b border-blue-300 flex items-center gap-1">
+              <TbMathGreater className="hidden md:block" />
+              BLOG
+            </li>
+            <li className="hover:text-[#E8953D] max-md:text-[14px] hover:cursor-pointer md:border-b border-blue-300 flex items-center gap-1">
+              <TbMathGreater className="hidden md:block" />
+              CONTACT US
+            </li>
+            <li className="uppercase hover:text-[#E8953D] max-md:text-[14px] hover:cursor-pointer md:border-b border-blue-300 flex items-center gap-1">
+              <TbMathGreater className="hidden md:block" />
+              Courses
+            </li>
+          </ul>
         </div>
         <div>
-          <p className="font-bold text-xl">CONTACT</p>
+          <p className="font-bold text-xl max-sm:text-2xl">CONTACT</p>
           <div className="pt-6">
-            <ul className="flex flex-col gap-y-4 text-sm">
-              <li className="flex items-center gap-4">
+            <ul className="flex  flex-col gap-y-4 ">
+              <li className="flex  items-center gap-4">
                 <CiLocationOn size={26} />
                 USA, Callifornia 20, First Avenue, Callifornia
               </li>

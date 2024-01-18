@@ -13,7 +13,10 @@ const NewsLetter = () => {
         <div className="lg:flex-1">
           <h2 className="mt-8">Your E-mail address</h2>
           <div className="flex ">
-            <input placeholder="Enter your E-mail" className="w-full p-2" />
+            <input
+              placeholder="Enter your E-mail"
+              className="w-full p-2 outline-none text-blue-600"
+            />
             <button className="flex justify-center items-center px-4 bg-black">
               Suscribe
             </button>

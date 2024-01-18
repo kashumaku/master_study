@@ -16,38 +16,38 @@ const Achievment = () => {
         </p>
         <div className="flex justify-between w-[80%] ">
           <p className="flex flex-col items-center">
-            <FaGlobeAfrica className="text-5xl md:text-6xl" />{" "}
-            <span className="text-2xl md:text-4xl text-orange-500 font-bold">
+            <FaGlobeAfrica className="text-5xl text-blue-600 md:text-6xl" />{" "}
+            <span className="text-xl md:text-4xl text-orange-500 font-bold">
               924346
             </span>
-            <span className="uppercase max-md:text-sm md:font-bold">
+            <span className="uppercase max-md:text-xs md:font-bold">
               Foreign followers
             </span>
           </p>
           <p className="flex flex-col items-center">
-            <IoIosNotificationsOutline className="text-5xl md:text-6xl" />{" "}
-            <span className="text-2xl md:text-4xl text-orange-500 font-bold">
+            <IoIosNotificationsOutline className="text-5xl text-yellow-500 md:text-6xl" />{" "}
+            <span className="text-xl md:text-4xl text-orange-500 font-bold">
               23454
             </span>
-            <span className="uppercase max-md:text-sm md:font-bold">
+            <span className="uppercase max-md:text-xs md:font-bold">
               Classes completed
             </span>
           </p>
           <p className="flex flex-col items-center">
-            <FaUsers className="text-5xl md:text-6xl" />
-            <span className="text-2xl md:text-4xl text-orange-500 font-bold">
+            <FaUsers className="text-5xl text-green-500 md:text-6xl" />
+            <span className="text-xl md:text-4xl text-orange-500 font-bold">
               23223
             </span>
-            <span className="uppercase max-md:text-sm md:font-bold">
+            <span className="uppercase max-md:text-xs md:font-bold">
               Students Enrolled
             </span>
           </p>
           <p className="flex flex-col items-center">
-            <BsFillWalletFill className="text-5xl md:text-6xl" />
-            <span className="text-2xl md:text-4xl text-orange-500 font-bold">
+            <BsFillWalletFill className="text-5xl text-orange-200 md:text-6xl" />
+            <span className="text-xl md:text-4xl text-orange-500 font-bold">
               353
             </span>
-            <span className="uppercase max-md:text-sm md:font-bold">
+            <span className="uppercase max-md:text-xs md:font-bold">
               Certified teachers
             </span>
           </p>

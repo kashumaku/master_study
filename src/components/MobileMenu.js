@@ -6,7 +6,7 @@ const Mobile = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div>
-      <div className="flex">
+      <div className="flex px-2">
         <div className="flex flex-1 items-center ">
           <img
             src={logo}

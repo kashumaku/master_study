@@ -1,21 +1,20 @@
-import About from "./components/About";
-import Achievment from "./components/Achievment";
-import Blog from "./components/blog";
-import Courses from "./components/courses";
-import Footer from "./components/footer";
-import Home from "./pages/Home";
+import react from "react";
+import Main from "./pages/Main";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Register from "./pages/SignUp";
+import SignUp from "./pages/SignUp";
+import Login from "./pages/Login";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Home />
-      <Courses />
-      <Achievment />
-      <About />
-      <Blog />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

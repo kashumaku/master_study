@@ -62,23 +62,25 @@ const Courses = () => {
       {/* second part */}
 
       <div className="pl-6 pt-[200px]">
-        <div className="flex justify-between">
-          <p className="font-extrabold text-5xl">Top Courses</p>
-          <div className="flex gap-10 pr-10">
-            <button className="bg-[#2C7AFF] px-6 text-white text-center rounded-full">
+        <div className="max-sm:mt-14 max-sm:relative flex justify-between">
+          <p className="max-sm:mb-8  max-sm:absolute max-sm:bottom-10 max-sm:font-bold max-sm:mr-6 font-extrabold text-5xl">
+            Top Courses
+          </p>
+          <div className="flex  max-sm:gap-2 gap-10 pr-10">
+            <button className="max-sm:px-8 max-sm:h-12 bg-[#2C7AFF] px-6 text-white text-center rounded-full">
               Newest
             </button>
-            <button className="bg-gray-200 px-6 rounded-full hover:bg-[#2C7AFF] hover:text-white">
+            <button className="max-sm:px-8 max-sm:h-12 bg-gray-200 px-6 rounded-full hover:bg-[#2C7AFF] hover:text-white">
               Oldest
             </button>
-            <button className="bg-gray-200 px-6 rounded-full hover:bg-[#2C7AFF] hover:text-white">
+            <button className="max-sm:px-8 max-sm:h-12 bg-gray-200 px-6 rounded-full hover:bg-[#2C7AFF] hover:text-white">
               Overall Rating
             </button>
           </div>
         </div>
 
-        <div className="mt-14 pl-2  grid grid-rows-2 grid-cols-4 gap-y-8 overflow-hidden">
-          <div className="parent relative  w-[270px] h-[350px] rounded-xl">
+        <div className="max-sm:pl-0 max-sm:flex max-sm:flex-col mt-14 pl-2  grid grid-rows-2 grid-cols-4 gap-y-8 overflow-hidden">
+          <div className="parent relative max-sm:w-[98%] max-sm:h-[250px]  w-[270px] h-[350px] rounded-xl">
             <div className="child absolute  transition-transform transform translate-y-full text-white max-w-[80%] pl-10">
               <p>eeeEnironmental Sciences</p>
               <p>Basics of MasterStudy</p>
@@ -88,31 +90,35 @@ const Courses = () => {
                 a feature-rich WP product
               </p>
             </div>
-            <img src={env} alt="env" className="h-full w-full rounded-xl" />
+            <img
+              src={env}
+              alt="env"
+              className="max-sm:w-[94%] max-sm:h-[250px] h-full w-full rounded-xl"
+            />
           </div>
 
-          <div className="w-[270px] h-[350px] rounded-xl bg-red-300">
+          <div className="max-sm:w-[94%] max-sm:h-[250px] w-[270px] h-[350px] rounded-xl bg-red-300">
             <img src={fash} alt="cam" className="h-full w-full rounded-xl" />
           </div>
-          <div className="w-[270px] h-[350px] rounded-xl bg-red-300">
+          <div className="max-sm:w-[94%] max-sm:h-[250px] w-[270px] h-[350px] rounded-xl bg-red-300">
             <img src={cam} alt="env" className="h-full w-full rounded-xl" />
           </div>
-          <div className="w-[270px] h-[350px] rounded-xl bg-red-300">
+          <div className="max-sm:w-[94%] max-sm:h-[250px] w-[270px] h-[350px] rounded-xl bg-red-300">
             <img src={dj} alt="env" className="h-full w-full rounded-xl" />
           </div>
-          <div className="w-[270px] h-[350px] rounded-xl bg-red-300">
+          <div className="max-sm:w-[94%] max-sm:h-[250px] w-[270px] h-[350px] rounded-xl bg-red-300">
             <img src={cam} alt="env" className="h-full w-full rounded-xl" />
           </div>
-          <div className="w-[270px] h-[350px] rounded-xl bg-red-300">
+          <div className="max-sm:w-[94%] max-sm:h-[250px] w-[270px] h-[350px] rounded-xl bg-red-300">
             <img src={dj} alt="env" className="h-full w-full rounded-xl" />
           </div>
-          <div className="w-[270px] h-[350px] rounded-xl bg-red-300">
+          <div className="max-sm:w-[94%] max-sm:h-[250px] w-[270px] h-[350px] rounded-xl bg-red-300">
             <img src={env} alt="env" className="h-full w-full rounded-xl" />
           </div>
-          <div className="w-[270px] h-[350px] rounded-xl bg-red-300">
+          <div className="max-sm:w-[94%] max-sm:h-[250px] w-[270px] h-[350px] rounded-xl bg-red-300">
             <img src={fash} alt="cam" className="h-full w-full rounded-xl" />
           </div>
-          <div className="w-screen flex justify-center">
+          <div className="w-screen max-sm:w-[94%]  flex justify-center">
             <button className="bg-blue-500 text-white px-4 py-2 mt-2 mb-8 rounded-full flex items-center ">
               Load more
             </button>

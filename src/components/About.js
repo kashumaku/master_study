@@ -21,7 +21,7 @@ const About = () => {
           <img
             src={tchr}
             alt=""
-            className="md:absolute z-1 right-32 top-3 h-96 bg-blue-500 rounded-2xl"
+            className="md:absolute z-1 right-32 top-3 h-72 md:h-96 bg-blue-500 rounded-2xl"
           />
           <div className="max-md:hidden absolute border-r-[14px] border-b-[14px] border-t-[14px] right-32 top-3 border-indigo-700 rounded-lg h-[320px] w-44 " />
 
@@ -38,7 +38,7 @@ const About = () => {
         <div className="text-white grid grid-cols-1 md:grid-cols-4 gap-4 mt-14 md:w-[70%] ">
           {courses.map((course) => {
             return (
-              <div className="relative h-96 m-auto w-full rounded-xl overflow-hidden ">
+              <div className="relative h-60 md:h-96 m-auto w-full rounded-xl overflow-hidden ">
                 <img
                   src={course.img}
                   alt=""
