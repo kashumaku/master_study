@@ -39,7 +39,7 @@ const TopBar = ({ pageLocation }) => {
       <div className="flex gap-2 text-white">
         {pageLocation !== "login" && (
           <Link
-            to="/login"
+            to="/master_study/login"
             className="flex items-center ml-3 px-3 py-1 box-border border-2 border-orange-300"
           >
             Login
@@ -47,7 +47,7 @@ const TopBar = ({ pageLocation }) => {
         )}
         {pageLocation !== "sign up" && (
           <Link
-            to="/signup"
+            to="/master_study/signup"
             className="px-3 py-1 box-border border-2 border-orange-300"
           >
             Register

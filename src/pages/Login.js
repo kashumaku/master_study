@@ -72,7 +72,7 @@ const Login = () => {
               Login
             </button>
             <Link
-              to="/"
+              to="/master_study"
               className="bg-orange-800 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-700"
             >
               Cancel
